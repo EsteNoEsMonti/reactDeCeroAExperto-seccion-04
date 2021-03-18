@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <CounterApp/> Debe mostrar CounterApp correctamente 1`] = `
+<Fragment>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Title
+      level={1}
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      Counter App
+    </Title>
+    <Title
+      id="test_counter"
+      level={2}
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      1997
+    </Title>
+    <Button
+      onClick={[Function]}
+      style={
+        Object {
+          "margin": 15,
+        }
+      }
+      type="default"
+    >
+      <ForwardRef(MinusCircleOutlined) />
+      1
+    </Button>
+    <Button
+      ghost={true}
+      onClick={[Function]}
+      style={
+        Object {
+          "margin": 15,
+        }
+      }
+    >
+      <ForwardRef(RetweetOutlined) />
+       Reset
+    </Button>
+    <Button
+      onClick={[Function]}
+      style={
+        Object {
+          "margin": 15,
+        }
+      }
+      type="primary"
+    >
+      <ForwardRef(PlusCircleOutlined) />
+      1
+    </Button>
+  </div>
+</Fragment>
+`;
